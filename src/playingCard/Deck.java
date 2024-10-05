@@ -53,3 +53,10 @@ public class Deck extends ArrayList<Card> {
         }
     }
 }
+
+
+// Areas for improvement
+// 1. Do not have to extend ArrayList, you just have to create a member that is Card[] or any collection of Card
+// private Card[] cards = new Card[52];
+
+// 2. Since Suits and values will never be changed, we can set it as FINAL

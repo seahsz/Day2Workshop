@@ -27,3 +27,13 @@ public class Card {
     }
     
 }
+
+
+// Areas for improvement
+// 1. making members suit & value FINAL
+// 2. Do not have set_____ for suit and value since they are meant to be final; instead assign the values through the constructor
+
+    // public Card(String suit, String value) {
+    //     this.suit = suit;
+    //     this.value = value;
+    // }
